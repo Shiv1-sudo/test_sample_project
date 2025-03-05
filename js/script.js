@@ -3,7 +3,7 @@ function birthdayParty() {
     document.getElementById("message").innerHTML = `
         <h1>Happy Birthday, Love!</h1>
         <p>Wishing you a day filled with love and happiness.</p>
-        <img src="images/adi_shivani.jpeg" alt="Birthday Cake">
+        <img src="images/happyBirthday.jpg" alt="Birthday Cake">
         
     `;
 }
