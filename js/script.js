@@ -1,7 +1,7 @@
 // js/script.js
 function birthdayParty() {
     document.getElementById("message").innerHTML = `
-        <h1>Happy Birthday, Love!</h1>
+        <h1>Happy Birthday!!</h1>
         <p>Wishing you a day filled with love and happiness.</p>
         <img src="images/happyBirthday.jpg" alt="Birthday Cake">
         
@@ -17,7 +17,7 @@ function GoToWork() {
 
 function checkBirthday() {
     const today = new Date();
-    const birthday = new Date('March 05, 2025');
+    const birthday = new Date('MArch 05, 2025');
 
     if (today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth() && today.getFullYear() === birthday.getFullYear()) {
         birthdayParty();
