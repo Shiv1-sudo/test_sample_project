@@ -17,7 +17,7 @@ function GoToWork() {
 
 function checkBirthday() {
     const today = new Date();
-    const birthday = new Date('MArch 05, 2025');
+    const birthday = new Date('March 05, 2025');
 
     if (today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth() && today.getFullYear() === birthday.getFullYear()) {
         birthdayParty();
